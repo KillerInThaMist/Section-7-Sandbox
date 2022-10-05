@@ -56,6 +56,12 @@ if (typeOf _crate == "FlexibleTank_01_forest_F") then {
     [_crate, 100000] call ace_refuel_fnc_setFuel;
     [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
 };
+if (typeOf _crate == "B_CargoNet_01_ammo_F") then {
+    [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
+};
+if (typeOf _crate == "VirtualReammoBox_small_F") then {
+    [_crate, 1200] call ace_rearm_fnc_setSupplyCount;
+};
 
 // Clear the storage
 clearWeaponCargoGlobal _crate;
