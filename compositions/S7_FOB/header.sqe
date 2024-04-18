@@ -1,6 +1,6 @@
 version=54;
-name="S7 FOB";
-author="KillerInThaMist";
+name="S7_FOB";
+author="S7 Server Team";
 category="EdSubcat_Default";
 requiredAddons[]=
 {
